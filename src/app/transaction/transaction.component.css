@@ -1,0 +1,36 @@
+table ,tr,td,th{
+    color: rgb(22, 8, 8);
+    border: rgb(17, 7, 7) 2px solid;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+.link{
+    position: absolute;
+    position: absolute;
+    margin-top: 59px;
+    margin-left: 12px;
+}
+
+.link a{
+    
+    text-align: center;
+    /* text-decoration: none; */
+    font-size: 30px;
+    /* margin-top: -89px; */
+    color: #f8f9fa;
+    text-decoration: none;
+    background-color: #f03e4d;
+    border-radius: 10px;
+}
+
+#transimg{
+position: relative;
+background-image: url(../../assets/Bank-Statement-Templates.jpg.webp);
+background-size: cover;
+background-repeat: no-repeat;
+background-blend-mode: multiply;
+
+}

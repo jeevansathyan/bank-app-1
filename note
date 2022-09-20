@@ -1,0 +1,64 @@
+                                 angular -  front end Technology
+                                    ,,,,,,,,,,,,,,,,,,,,,,,
+
+                             basic commands
+                              ...........
+
+                       1. to create a project -ng new project name / ng new project-name --routing
+                       2. to run Angular projects - ng serve/ng serve --open
+                       3. to generate components -ng g c component-name
+                       4. to generate service - ng g s service-name
+
+
+                            BAsic building blocks
+                            .....................
+
+                        1. Module - to import 3rd party-(rootmodule- AppModule)
+                        2. Compoenent - To create html,css,ts(root Componenet- appcomponent)
+                        3. Data Binding - share data inside component
+                                3.1 one way binding- data sharing only in one direction
+                                   3.1.1 component (ts) to view (html)
+                                      3.1.1.1 sting Interpolation - {{expression}}
+                                      3.1.1.2 property binding -[attribute name] = "property name"
+                                   3.1.2 view (html) to component (ts)
+                                      3.1.2.1 event binding - (event name)="function-name()"
+                                      3.1.2.2 event binding using $event - (event name)="function-name($event)"
+                                      3.1.2.3 event binding using template referancing variable -#varible-name
+                               3.2 Two way binding - data shairing in both direction - 
+                               3.2.1 ngModel - import FormsModule in AppModule -[(ngModule)] = "property-name" , property name should defined in its file
+                       4. Angular routing - to set path for component in approutingModule - {path:value, component:class_name}
+                       -use router-outlet selector inside the root component
+
+                       5.Dependency Injection-share data between dependent classes
+
+                       6. angular service -to hpld
+
+                       7.ng submit
+
+                       8.angular Directives -  To manupulate Dom
+                          
+                          8.1 component directive
+
+                          8.2 structural directive
+
+                          8.2.1 *ngFor
+                          8.2.2 *ngIf
+
+                          9. angular forms
+                          
+                          9.1. Template driven forms - first design html
+
+                          9.2 model driven forms- first designts file
+                           
+                           9.2.1 Reactive forms - Form group, arry, and control
+
+                                                      -add validations directly
+
+                                                      Import reactiveForms module
+                        10. Local storage
+
+                        10.1 set item
+                        10.2 get item
+                        10.3 delete item
+
+                        11. parent child 
